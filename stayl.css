@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: Open Sans sans-serif;
   width: 100%;
   margin: 0 auto;
   background-color: #020a18;
@@ -38,6 +38,9 @@ body {
   height: 47px;
   border-radius: 5px;
   background-color: #3a68b8;
+  border: none;
+  color: white;
+  cursor: pointer;
 }
 .sections {
   position: relative;
@@ -73,6 +76,8 @@ body {
   border-radius: 5px;
   color: white;
   margin-top: 50px;
+  border: none;
+  cursor: pointer;
 }
 .section-btn2 {
   width: 171px;
@@ -81,8 +86,268 @@ body {
   border-radius: 5px;
   color: white;
   margin-left: 30px;
+  border: none;
+  cursor: pointer;
 }
 .images {
   position: relative;
   bottom: 170px;
+}
+.container_img {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px;
+}
+
+.section2 {
+  display: flex;
+  gap: 100px;
+}
+.sections_img {
+  margin-left: 130px;
+}
+
+.sections_h1 {
+  font-size: 40px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.sections_p {
+  margin-top: 30px;
+  margin-left: 100px;
+  font-size: 16px;
+  color: gray;
+}
+
+.section-button {
+  width: 150px;
+  height: 52px;
+  background-color: #3a68b8;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 100px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sectionss-div {
+  padding: 100px;
+}
+
+.div_section {
+  display: flex;
+  gap: 30px;
+  margin-top: 200px;
+  margin-left: 250px;
+}
+
+.main_img {
+  width: 412.963px;
+  height: 478px;
+  background-color: rgb(11, 11, 22);
+}
+.main-img2 {
+  width: 412.963px;
+  height: 478px;
+  background-color: rgb(11, 11, 22);
+}
+.main-img3 {
+  width: 412.963px;
+  height: 478px;
+  background-color: rgb(11, 11, 22);
+}
+.divimages1 {
+  margin-top: 90px;
+  margin-left: 170px;
+}
+.divimages2 {
+  margin-top: 50px;
+  margin-left: 160px;
+}
+.divimages3 {
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.divh1 {
+  margin-top: 50px;
+  margin-left: 65px;
+  color: wheat;
+  font-size: 30px;
+}
+.divp {
+  margin-top: 30px;
+  margin-left: 80px;
+  color: gray;
+  font-size: 16px;
+}
+.divh1-1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: wheat;
+  font-size: 30px;
+}
+.divp-1 {
+  margin-top: 30px;
+  margin-left: 80px;
+  color: gray;
+  font-size: 16px;
+}
+.divh1-2 {
+  margin-top: 50px;
+  margin-left: 72px;
+  color: wheat;
+  font-size: 30px;
+}
+.divp-2 {
+  margin-top: 30px;
+  margin-left: 80px;
+  color: gray;
+  font-size: 16px;
+}
+.end_section {
+  display: flex;
+  padding: 200px;
+}
+
+.end-div {
+  margin-left: 170px;
+}
+
+.end-img {
+  margin-left: 50px;
+}
+.endh1 {
+  font-size: 40px;
+  color: white;
+}
+.end-p {
+  margin-top: 30px;
+  font-size: 16px;
+  color: gray;
+}
+.end-p1 {
+  margin-top: 30px;
+  font-size: 16px;
+  color: gray;
+}
+.end-p2 {
+  margin-top: 30px;
+  font-size: 16px;
+  color: gray;
+}
+.end-p3 {
+  margin-top: 30px;
+  font-size: 16px;
+  color: gray;
+}
+.footer {
+  width: 1920px;
+  height: 491.211px;
+  background-color: rgb(11, 11, 22);
+  display: flex;
+  padding: 70px;
+}
+
+.footer-div {
+  margin-left: 280px;
+  display: flex;
+  gap: 70px;
+}
+.footer-h1 {
+  font-size: 20px;
+  color: #3a68b8;
+}
+.footer-p {
+  margin-top: 30px;
+  color: gray;
+}
+
+.footers {
+  margin-top: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.footers a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+.footers2 {
+  margin-top: 25px;
+}
+
+.footers2 a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+
+.footers3 {
+  margin-top: 25px;
+}
+.footers3 a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  gap: 15px;
+}
+.footers_div a {
+  display: flex;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.footer_h1 {
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+}
+.footersss a {
+  display: flex;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.footer-menu {
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+}
+.foooter a {
+  display: flex;
+  text-decoration: none;
+  color: gray;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.footer-ul {
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+}
+
+.footerss_h1 {
+  font-size: 18px;
+  color: white;
+  margin-top: 25px;
+}
+.footerp {
+  margin-top: 30px;
+  color: gray;
+}
+.www {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 25px;
+}
+.footers_images img {
+  margin-top: 70px;
 }
